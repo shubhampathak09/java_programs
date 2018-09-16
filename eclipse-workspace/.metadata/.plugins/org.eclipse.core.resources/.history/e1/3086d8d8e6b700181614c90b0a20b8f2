@@ -1,0 +1,8 @@
+
+public class MemberVariable {
+	public void method()
+	{
+		System.out.println("This is methodvariable");
+	}
+
+}

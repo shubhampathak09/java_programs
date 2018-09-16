@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	
+	public static void main(String[] args)
+	{
+		  MemberVariable m1=new MemberVariable();
+		  Scanner s=new Scanner(System.in);
+		  System.out.println("Enter Your name Here  now");
+		  String name=s.nextLine();
+		  m1.method(name);
+	}
+
+}

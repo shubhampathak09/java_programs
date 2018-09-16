@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	
+	public static void main(String[] args)
+	{ 
+		 Average avgobj=new Average();
+		 avgobj.getInput(5);
+		 avgobj.getInput(6);
+		 avgobj.getInput(7);
+		 avgobj.display();
+	}
+
+}

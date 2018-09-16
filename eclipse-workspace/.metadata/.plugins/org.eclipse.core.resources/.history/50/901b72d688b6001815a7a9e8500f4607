@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main {
+	public static boolean checkplaindrome(int n)
+	{
+		int m=reverse(n);
+		if(m==n)
+			return true;
+		else
+			return false;
+	}
+	public static int reverse(int number)
+	{
+		int reverse=0;
+		int rem;
+		int temp=number;
+		while(temp!=0)
+		{
+			rem=temp%10;
+			reverse=reverse*10+rem;
+			temp=temp/10;
+		}
+		return reverse;
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		int number;
+	 System.out.println("Enter a number u want to reverse");
+	 Scanner s=new Scanner(System.in);
+	 number=s.nextInt();
+	 int reversednum=reverse(number);
+	 System.out.println(reversednum);
+	 checkplaindrome(number);
+		
+	}
+
+}

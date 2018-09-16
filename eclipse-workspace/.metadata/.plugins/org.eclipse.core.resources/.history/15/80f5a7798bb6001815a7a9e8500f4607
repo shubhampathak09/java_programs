@@ -1,0 +1,26 @@
+
+public class Power {
+	// to caheck if given number is power of 4
+public static int pow(int n)
+{
+	int remain=n
+			int flag=0;
+	while(remain!=0||remin=!1||remain=!2||remain=!3)
+	{
+		remain=remain/4;
+	}
+	if(remain==0)
+		flag=1;
+	if(fag==1)
+	{
+		System.out.println("power of 4");
+		return 1;
+	}
+	else
+	{
+		System.out.println("Not a power 4");
+		return 0;
+	}
+}
+	
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Frequency {
+	public static int Fact(int n) //Fact is function that calculates the factorial of a number.
+	{
+	if(n==1)
+		return 1;
+	else
+		return n*Fact(n-1);
+	}
+	public static void main(String[] args)
+	{
+		int n;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Input the number whose factorial you want..");
+		n=s.nextInt();
+		System.out.println(Fact(n));
+	
+		
+	}
+
+}

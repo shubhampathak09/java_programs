@@ -1,0 +1,8 @@
+
+public class MemberVariable {
+	public void method(String name)
+	{
+		System.out.println("Hello "+name);
+	}
+
+}
